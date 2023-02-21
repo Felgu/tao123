@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+.bardroite img{
+  object-fit: contain;
+  height: 50px;
+  margin-left: 15px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.primbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.1px solid gray;
+  background-color: rgb(48, 85, 47);
+}
+.bargauche{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.bargauche span{
+  padding: 10px;
+  cursor: pointer;
+}
+.barmilieu{
+  display: flex;
+  flex: 0.4;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+.material-icons{
+  color: gray;
+}
+.barmilieu input{
+  border: none;
+  width: 50%;
+  outline: none;
+  font-size: medium;
+  background-color: transparent;
+}
+.bardroite{
+  display: flex;
+  padding-right: 20px;
+}
+.bardroite span{
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* 2em bare */
+.secondbare{
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid gray;
+  background-color: #66afcb;
+  height: 40px;
+}
+.secondbare span{
+  font-size: 20px;
+  color: black; 
+  padding-right: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.secondbare .aide{
+  display: block;
+  font-family: sans-serif;
+  padding-left: 30px;
+  margin-right: 10%;
+  margin-left: 68%;
+}
+.secondbare .affiche{
+  display: block;
+  font-family: sans-serif;
+  padding-left: 30px;
+  margin-right: -10%;
+  margin-left: -10%;
+}
+.secondbare .accueil{
+  display: block;
+  font-family: sans-serif;
+  padding-left: 20px;
+  margin-right: 38%;
+  margin-left: 10%;
+}
+.secondbare .aide .butaide:hover{
+  background-color: rgb(136, 131, 131);
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  border-radius: 8px;
+}
+.secondbare .affiche .butaff:hover{
+  background-color: rgb(136, 131, 131);
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  border-radius: 8px;
+}
+.secondbare .accueil .butacc:hover{
+  background-color: rgb(136, 131, 131);
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  border-radius: 8px;
+}
+/* main body, courriel partie*/
+.mainb{
+  display: flex;
+  height: 100vh;
+  background-color: rgb(140, 165, 180);
+  background-image: url(pappers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  height: 100vh;
+  overflow: hidden;
+}
+.emailist{
+  flex: 1;
+  overflow: scroll;
+}
+.emailsettings{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid whitesmoke;
+  background-color: white;
+  z-index: 999;
+  padding: 8px;
+}
+.emailsetgauche{
+  display: flex;
+  align-items: center;
+}
+.emailsettings .material-icons {
+  margin: 5px;
+  cursor: pointer;;
+}
+.emailsetdroite{
+  display: flex;
+  align-items: center;
+}
+
+/* cote droit vertical */
+
+.sidebar{
+  flex: 0.3;
+  max-width: 200px;
+  padding-right: 20px;
+  background-color: #bdb7b7;
+}
+
+.sidbarbouton{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(32, 26, 26);
+  padding: 8px;
+  outline: none;
+  border: none;
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 5px --2px;
+}
+
+.sidebarbouton span{
+  margin-right: 5px;
+}
+.sidebarOption{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+  border-top-right-radius: 20;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  color: #150f0f;
+}
+.sidebarOption .material-icons{
+  padding: 5px;
+}
+.sidebarOption h3{
+  flex: 1;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.sidebarOption:hover, .sidebarOption:hover h3,
+.sidebarOption:hover .material-icons{
+  background-color: #a79898;
+  color: rgb(54, 108, 144);
+  font-weight: 800;
+}
+
+.sidebarpied{
+  display: flex;
+  justify-content:center;
+}
+
+.sidebarpied .pied_icons .material-icons{
+  margin: 7px;
+  cursor: pointer;
+  position:sticky;
+}
