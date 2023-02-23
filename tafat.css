@@ -115,7 +115,6 @@
   display: flex;
   height: 100vh;
   background-color: rgb(140, 165, 180);
-  background-image: url(pappers.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -212,7 +211,37 @@ body{
 }
 
 .sidebarpied .pied_icons .material-icons{
-  margin: 7px;
+  margin: 5px;
   cursor: pointer;
   position:sticky;
 }
+/* section des courriels */
+.titre_courriel{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px;
+  min-width: 200px;
+  border-width: 0;
+  border-bottom-width: 2px ;
+}
+.section_courriel{
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid whitesmoke;
+}
+.titre_courriel:hover{
+  background-color: whitesmoke;
+  border-left: 3px;
+}
+.titre_courriel h4{
+  font-size: 14px;
+  margin-left: 15px;
+}
+.options_ranges{
+  display: flex;
+  align-items: center;
+}
+
